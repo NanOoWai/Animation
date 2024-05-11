@@ -1,0 +1,29 @@
+div{
+    margin: 200px ;
+    text-align: center;
+}
+
+button{
+    padding: 10px 20px;
+    border: 1px solid red; 
+    background-color: aqua;
+    color:blue;
+    font-size: 20px;
+    border-radius: 10px;
+    animation: move;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  
+}
+@keyframes move {
+    0%{
+        transform: translateX(0px) rotate(-360deg);
+    } 
+    40%{
+        transform: translateX(300px);
+    }
+    100%{
+        transform: translateX(-100px) rotate(40deg) ;
+   }  
+} 
